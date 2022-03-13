@@ -5,6 +5,15 @@ body {
   font-family: "Rajdhani", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.f-righteous {
+  font-family: "Righteous", cursive;
+}
 /* Header Area */
 .header-area {
   background: url("../images/banner1.png");
@@ -28,4 +37,19 @@ body {
 .button:hover {
   background-color: #02fee5;
   border-radius: 50px;
+}
+/* Blog Area */
+.blog-title {
+  font-family: "Righteous", cursive;
+  font-size: 45px;
+  text-align: center;
+}
+.like {
+  display: flex;
+}
+.like li a {
+  color: black;
+}
+.like li i {
+  padding-right: 5px;
 }
