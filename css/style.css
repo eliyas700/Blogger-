@@ -5,10 +5,13 @@ body {
   font-family: "Rajdhani", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+/* Header Area */
 .header-area {
   background: url("../images/banner1.png");
-  width: 100vw;
-  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar-nav a:hover {
   color: #130f40 !important;
@@ -18,4 +21,11 @@ body {
   font-family: "Righteous", cursive;
   font-size: 60px;
   color: #02fee5;
+}
+.button {
+  transition: 0.7s ease-in-out;
+}
+.button:hover {
+  background-color: #02fee5;
+  border-radius: 50px;
 }
