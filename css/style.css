@@ -14,9 +14,7 @@ a {
 .f-righteous {
   font-family: "Righteous", cursive;
 }
-.color-white {
-  color: white;
-}
+
 /* Header Area */
 .header-area {
   background: url("../images/banner1.png");
@@ -63,5 +61,8 @@ a {
   margin-top: 130px;
   margin-bottom: 60px;
   padding-top: 200px;
-  background-color: red;
+}
+
+.cards {
+  box-shadow: 5px 5px 10px #3e3e3e;
 }
